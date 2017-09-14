@@ -17,14 +17,14 @@ public class HomeController {
 	public String showview(Model model) {
 		model.addAttribute("name", "Tom");
 		model.addAttribute("formatted", "<b>blue</b>");
-		return "home";
+		return "index";
 	}
 	
-	@RequestMapping("/mome")
+	@RequestMapping("/example")
 	public String showHome(Model model) {
 		model.addAttribute("name", "Tom from Home page");
 		model.addAttribute("formatted", "<b>Home</b>");
-		return "home";
+		return "index";
 	}
 	
 }
