@@ -21,7 +21,7 @@ Building the project
 
 Go to the newly created folder:
 
-> cd spring-thymeleaf-javabased-config
+> cd spring-thymeleaf-xmmlbased-config
 
 Run the project with:
 
